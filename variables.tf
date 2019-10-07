@@ -9,8 +9,9 @@ variable "tags" {
   default     = {
     "Name"        = "Sample-VPC-Module"
     "Description" = "Generated from https://github.com/asajaroff/terraform-aws-vpc"
-    "Stage"       = "Testing"
-    "Owner"       = ""
+    "Environment" = "dev"
+    "Stage"       = "Blue"
+    "Owner"       = "SysOps Tech Lead"
     "Team"        = "SysOps Team"
   }
 }
